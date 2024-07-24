@@ -11,15 +11,25 @@ It's strongly advised to install all the python libraries in a virtual environme
 To do so, please follow these steps: 
 
 1. Open the terminal, and navigate to the directory where you are actually working.
-2. Create the virtual environment with this command:        python -m venv virtualenvironmentname
-3. Activate the virtual environment:                        virtualenvironmentname/bin/activate
+2. Create the virtual environment with this command:
+```bash
+python -m venv virtualenvironmentname
+```
+
+3. Activate the virtual environment:
+```bash
+
+virtualenvironmentname/bin/activate
+```
+
 4. Install the packages:
-``bash
+
+```bash
 
 pip install packagename
+```
 
-
-7. For deactivating the virtual environment:
+5. For deactivating the virtual environment:
 
 ```bash
 
