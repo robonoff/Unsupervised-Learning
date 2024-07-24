@@ -25,5 +25,7 @@ pip install packagename
 
 deactivate
 
+```
+
 
 Whenever running the scripts, please keep in mind to have your virtual environment activated. 
