@@ -26,7 +26,7 @@ The algorithm has 5 steps:
 
 
     <div align="center">
-    ![formula](formula.png)
+      <img src="formula.png"/>
     </div>
   
    where $\delta_{ij}$ is the current distance of $p_{i}$ from the point $n_{ij}$, $\delta_{ij0}$ is the original distance of $p_{i}$ to $n_{ij}$ measured at step 2, $\theta_{ij}$ is the current angle, $\theta_{oij0}$ is the original angle measured at step 2.
