@@ -41,7 +41,8 @@ The algorithm has 5 steps:
 
 ## Conclusions
 
-Compared to Isomap, Manifold Sculpting performs well at the increasing number of neighbors, keeping the error steadily stable. 
+After running the tests on an S-Curve manifold and a Swiss Roll manifold, Manifold Sculpting performs well at the increasing number of neighbors, keeping the error steadily stable. Isomap results to be the algorithm that perfoms worse overall. 
 HHLE performs greatly as well, but it's computationally costly. 
+
 
 
