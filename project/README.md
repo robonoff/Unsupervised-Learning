@@ -25,8 +25,9 @@ The algorithm has 5 steps:
    - **RESTORING THE ORIGINAL VALUES:** For each data point $p_{i}$, the values of the preserved dimensions, denoted by $D_{preserved}$ are adjusted to recover the relationships by the scaling. Intuitevely, this step simulates tension on the manifold surface. An heuristic error value is used to evaluate the current relationships among data points relative to the original ones:
 
 
+    <div align="center">
     ![formula](formula.png)
-
+    </div>
   
    where $\delta_{ij}$ is the current distance of $p_{i}$ from the point $n_{ij}$, $\delta_{ij0}$ is the original distance of $p_{i}$ to $n_{ij}$ measured at step 2, $\theta_{ij}$ is the current angle, $\theta_{oij0}$ is the original angle measured at step 2.
    The denominators are chosen as normalizing factors, as the value of angle term can range between $0$ and $\pi$, and the value of the distance will have a mean of about $\delta_{ave}$.
