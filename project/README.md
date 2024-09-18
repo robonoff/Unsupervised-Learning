@@ -25,7 +25,7 @@ The algorithm has 5 steps:
    - **RESTORING THE ORIGINAL VALUES:** For each data point $p_{i}$, the values of the preserved dimensions, denoted by $D_{preserved}$ are adjusted to recover the relationships by the scaling. Intuitevely, this step simulates tension on the manifold surface. An heuristic error value is used to evaluate the current relationships among data points relative to the original ones:
 
 
-    <div align="center" style="margin-top:25px; margin-bottom: 25px">
+    <div align="center" style="margin-top: 25px; margin-bottom: 25px">
       <img src="formula.png"/>
     </div>
   
