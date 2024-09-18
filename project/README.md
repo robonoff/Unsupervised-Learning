@@ -29,7 +29,12 @@ The algorithm has 5 steps:
       <img src="formula.png"/>
     </div>
   
-   where $\delta_{ij}$ is the current distance of $p_{i}$ from the point $n_{ij}$, $\delta_{ij0}$ is the original distance of $p_{i}$ to $n_{ij}$ measured at step 2, $\theta_{ij}$ is the current angle, $\theta_{oij0}$ is the original angle measured at step 2.
+   where:
+   - $\delta_{ij}$ is the current distance of $p_{i}$ from the point $n_{ij}$, 
+   - $\delta_{ij0}$ is the original distance of $p_{i}$ to $n_{ij}$ measured at step 2, 
+   - $\theta_{ij}$ is the current angle, 
+   - $\theta_{oij0}$ is the original angle measured at step 2.
+
    The denominators are chosen as normalizing factors, as the value of angle term can range between $0$ and $\pi$, and the value of the distance will have a mean of about $\delta_{ave}$.
 
    5. We project the data. $D_{scaled}$ contains now only values that are close to zero. The data points are projected by simply dropping the redundant dimensions $D_{scaled}$. This reduces the overall dimensionality. Discarding $D_{scaled}$ we won't have significant loss of information.
